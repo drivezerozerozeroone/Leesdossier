@@ -1,0 +1,63 @@
+* {
+  margin:0px;
+  padding:0px;
+  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+  line-height: 130%;
+}
+body {
+  background: url(achtergrondwater.jpg) repeat;
+  color:black ;
+}
+body.introductie {
+  background: url(introductie.PNG) 100% 100% no-repeat, url(achtergrondwater.jpg) repeat fixed;
+  background-size: 35%, 35%;
+}
+header{
+  text-shadow: 1px 1px 5px blue;
+  font-size: 40px;
+  }
+li.navigatie {
+  display: inline-block;
+  border: 3px solid blue;
+  background-color: lightblue;
+  border-radius: 30px 10px 30px 10px;
+  padding: 2px;
+  padding-left:7px;
+  padding-right: 7px;
+}
+a {
+  font-style: normal;
+  text-decoration: none;
+  color:black;
+}
+li.navigatie:hover {
+  background-color: blue;
+}
+ol {
+  padding-left:40px;
+}
+p.Deel {
+  color:black;
+  Background-color: lightsteelblue;
+  font-size: 20px;
+  margin: 7px;
+}
+ol.opsommingbalansverslag {
+  background-color:paleturquoise;
+  padding-left:50px;
+}
+p.vraag {
+  margin-top: 20px;
+  background-color:skyblue;
+}
+p.antwoord {
+  background-color: paleturquoise;
+  padding-left: 30px;
+}
+footer{
+  font-style: italic;
+}
+span.inleiding {
+  font-style: bold;
+  text-shadow: 0px 0px 2px darkmagenta;
+}
